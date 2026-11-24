@@ -1,0 +1,22 @@
+XY Plot Digitizer (all versions)
+Copyright (C) 2026 Kurt Taretto
+
+This program is free software: you can redistribute it and/or modify it under the terms of the
+GNU Affero General Public License as published by the Free Software Foundation, version 3 of the
+License (AGPL-3.0).
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
+the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General
+Public License for more details. The full license text is in LICENSE-AGPL-3.0.txt; it is also at
+https://www.gnu.org/licenses/agpl-3.0.txt
+
+Source code: the folder "source" next to XY_Digitizer.exe holds the complete source code of this
+version (Python files, icon, build script). Whoever passes the program on must pass on, or offer, the
+source code under the same license.
+
+Third-party components bundled with the executable (Python, NumPy, SciPy, OpenCV, Matplotlib, Qt,
+PySide6, PyMuPDF, RapidOCR and its OCR models, ONNX Runtime, openpyxl and their dependencies) keep their
+own licenses; see the "licenses" folder next to the executable. All of them allow redistribution
+together with an AGPL-3.0 program. Qt and PySide6 are used under the GNU LGPL version 3: they are
+shipped as separate library files that may be replaced by other builds of the same libraries.
+PyMuPDF and MuPDF are used under the GNU AGPL version 3.
